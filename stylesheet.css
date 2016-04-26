@@ -62,13 +62,18 @@ li {
 }
 
 button {
-	float: left;
 	text-align: center;
-	background-color: #DCDCDC;
-	border-radius: 9px;
-	margin: 40px 315px 40px 315px;
-	width:220px;
-	font-size: 14px;
+    background-color: #DCDCDC;
+    border-radius: 9px;
+    margin: 40px auto 40px auto;
+    font-size: 14px;
+    width: 220px;
+    display: block;
+}
+
+#buttonContainer{
+width:100%;
+
 }
 
 button:focus {
